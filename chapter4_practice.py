@@ -43,3 +43,10 @@ pizzas.append("cheese")
 friend_pizzas.insert(0,"bread")
 print(pizzas)
 print(friend_pizzas)
+#4.13
+buffets=("chips","orange","juice","tomato","parrot")
+for buffet in buffets:
+    print(buffet)
+buffets=("chips","apple","cola","tomato","parrot")
+for buffet in buffets:
+    print(buffet)
