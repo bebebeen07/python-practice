@@ -24,10 +24,13 @@ elif age < 65:
     print("This is an adult.")
 else:
     print("Old.")
-#5.8
+#5.8+5.9
 names=["sam","admin","jaden","sara","nick"]
 for name in names:
     if name == "admin":
         print(f"Hello {name.title()},would you like to see a status report?")
+    elif name =="":
+        print("We need to find some users!")
     else:
         print(f"Hello {name.title()},thank you for logging in again.")
+#5.10
